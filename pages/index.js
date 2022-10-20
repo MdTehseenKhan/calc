@@ -61,6 +61,7 @@ export default function Home() {
     getAnswer()
 	}
 	const calcBack = () => {
+		if (!calc) return
 		setCalc(prev => prev.slice(0, -1))
 		setResult(prev => {
 			const val = prev.toString().slice(0, -1)
