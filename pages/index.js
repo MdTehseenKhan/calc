@@ -57,6 +57,7 @@ export default function Home() {
 		setSign("")
 	}
 	const calcPercent = () => {
+    if (!calc) return
 		setCalc(prev => prev+"/100")
     getAnswer()
 	}
