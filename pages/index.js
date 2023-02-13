@@ -90,7 +90,7 @@ export default function Home() {
 					<div className="w-full flex">
 						<div className="w-3/4 grid grid-cols-3 gap-2">
 			        <button onClick={clearAll} className="bg-[#a5a5a5] text-slate-900">AC</button>
-							<button onClick={calcBack} className="bg-[#a5a5a5] text-slate-900">⌫</button>
+							<button onClick={calcBack} className="bg-[#a5a5a5] text-slate-900">C</button>
 							<button onClick={calcPercent} className="bg-[#a5a5a5] text-slate-900">%</button>
 							
               {nums.map(num => (
