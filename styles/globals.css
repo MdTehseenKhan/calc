@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply transition;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	@apply bg-black text-white;
 }
-* {
-	@apply transition;
+::-webkit-scrollbar {
+  display: none;
 }
 .calc_container button {
 	@apply py-7 rounded-full text-4xl hover:bg-gray-300 hover:text-black;
