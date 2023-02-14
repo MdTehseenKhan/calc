@@ -5,7 +5,9 @@
 body {
 	@apply bg-black text-white;
 }
-
+* {
+	@apply transition;
+}
 .calc_container button {
 	@apply py-7 rounded-full text-4xl hover:bg-gray-300 hover:text-black;
 }
